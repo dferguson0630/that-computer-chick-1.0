@@ -14,9 +14,9 @@ class App extends React.Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Route path="/" exact component={Home}/>
-          <Route path={process.env.PUBLIC_URL + "/services"} component={Services}/>
-          <Route path={process.env.PUBLIC_URL + "/about-us"} component={AboutUs}/>
-          <Route path={process.env.PUBLIC_URL + "/contact"} component={Contact}/>
+          <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
+          <Route path={`${process.env.PUBLIC_URL}/about-us`} component={AboutUs}/>
+          <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
         </div>
       </BrowserRouter>
       
