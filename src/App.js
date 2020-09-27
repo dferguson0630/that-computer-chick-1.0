@@ -17,7 +17,6 @@ class App extends React.Component {
           <Route path="/services" component={Services}/>
           <Route path="/about-us" component={AboutUs}/>
           <Route path="/contact" component={Contact}/>
-          <Route path="/remote" component={Remote}/>
         </div>
       </BrowserRouter>
       

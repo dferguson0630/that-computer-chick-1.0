@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
+import about from './about-us.jpg'
 
 const AboutUs = () => {
 	return (
@@ -8,12 +10,13 @@ const AboutUs = () => {
         	<div class="container">
 			    <div class="row align-items-center my-5">
 			    	<div class="col-lg-7">
-			        	<img class="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/750x500" alt="cover" />
+			        	<img class="img-fluid rounded mb-4 mb-lg-0" src={about} alt="cover" />
 			      	</div>
 			      <div class="col-lg-5">
-			        <h1 class="font-weight-light">About Us</h1>
-			        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel congue velit. Vivamus lacinia condimentum laoreet. Ut sit amet tempus lacus. Nullam imperdiet, velit vel malesuada commodo, dolor ex semper justo, at feugiat sapien ipsum sed libero. Aenean rhoncus pretium varius. Aenean tincidunt mauris eu maximus feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas velit dui, interdum consectetur aliquet cursus, scelerisque non risus. Aenean ac quam enim. In sit amet faucibus neque. Mauris nibh augue, blandit accumsan urna in, faucibus lacinia enim.</p>
-			        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent mi velit, rutrum in erat pretium, bibendum suscipit nibh. Maecenas suscipit ac velit ut vestibulum. Vestibulum quis mauris tempus, porta nunc sed, venenatis neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vulputate nunc vitae aliquam ornare. Duis a fringilla velit. Nullam ac neque lorem. Praesent eu faucibus odio, sit amet interdum nunc. Etiam et ex leo. Donec lorem augue, tristique id lacus nec, tincidunt dignissim magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas iaculis sodales sollicitudin. Pellentesque viverra arcu tellus, non ornare lacus volutpat quis.</p>
+			        <h1 class="font-weight-light" style={{fontFamily: 'Bellota'}}>About Us</h1>
+			        <p>That Computer Chick was founded in West Cobb in 2003 with the initial goal of meeting the needs of the community as technology grew more and more into an every household commodity. Linda Pereira, the founder, used the knowledge gained growing up in Silicon Valley to bring computer and electorincs repair to the Marietta area. Later founding locations in East Cobb and Symrna, Linda's computer expertise paired with her business savvy led to the successful expansion of That Computer Chick for over a decade.</p>
+			        <p>After ten years running That Computer Chick, Linda was diagnosed with a brain and movement disorder, and by 2015 was forced to retire from the business. In the meantime, longtime technician Kimberly Austin had become co-owner of That Computer Chick, and upon retirement Linda passed the torch to her daughter Emily Peterson. Over the course of the next year, the business downsized as That Computer Chick closed its auxillary locations and moved into its current Due West location in early 2016.</p>
+			        <p>Since moving to its current location, That Computer Chick has worked to re-establish itself under its new ownership by building relationships with the community and its patrons. By 2020, Emily wished to forge her own path independent from That Computer Chick, and Kimberly elected to step down as experienced technician Matthew Anderson took over as owner. Kimberly has stayed on as a consulatant and as an ambassador of the business in the community. In taking over That Computer Chick, Matthew hopes to exceed expectations by providing modern solutions to technological problems, while also giving back to the community that has supported us for the last 17 years.</p>
 
 			      </div>
 			    </div>
@@ -25,6 +28,7 @@ const AboutUs = () => {
 			    </div>
 
         </div>
+        <Footer />
       </div>
 	);
 }
