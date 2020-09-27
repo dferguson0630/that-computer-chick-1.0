@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/that-computer-chick-1.0/precache-manifest.73970cb079a76285ce8679b68c9b4191.js"
+  "/that-computer-chick-1.0/precache-manifest.a7189c8e050a427f49a0b752e427982c.js"
 );
 
 self.addEventListener('message', (event) => {

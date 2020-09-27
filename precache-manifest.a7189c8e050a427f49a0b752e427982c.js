@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c32728a6d42926926fbfe0848de5833b",
+    "revision": "8cb28d105aba62a0107ca6a73b9448dd",
     "url": "/that-computer-chick-1.0/index.html"
   },
   {
-    "revision": "eed182d8f4a764006a84",
+    "revision": "50a0c465a7b001b86219",
     "url": "/that-computer-chick-1.0/static/css/main.b8090f5f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/that-computer-chick-1.0/static/js/2.629bf476.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eed182d8f4a764006a84",
-    "url": "/that-computer-chick-1.0/static/js/main.37391d49.chunk.js"
+    "revision": "50a0c465a7b001b86219",
+    "url": "/that-computer-chick-1.0/static/js/main.d8c11e13.chunk.js"
   },
   {
     "revision": "0fc6cb066a911f6614f4",
