@@ -2,7 +2,7 @@
   "name": "that-computer-chick",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/dferguson0630/that-computer-chick-1.0/blob/tcc0.2.0/public/index.html",
+  "homepage": "https://dferguson0630.github.io/that-computer-chick-1.0/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
