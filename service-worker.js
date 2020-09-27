@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/that-computer-chick-1.0/precache-manifest.cc2993b8fa1b1a149898ecf7187e43c2.js"
+  "/dferguson0630/that-computer-chick-1.0/blob/tcc0.2.0/public/index.html/precache-manifest.bb97f2ae8904fd7f71cc1053918e15a1.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/that-computer-chick-1.0/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/dferguson0630/that-computer-chick-1.0/blob/tcc0.2.0/public/index.html/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
