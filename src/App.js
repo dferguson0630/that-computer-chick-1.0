@@ -14,9 +14,9 @@ class App extends React.Component {
       <BrowserRouter basename="/that-computer-chick-1.0"> 
         <div>
           <Route path={`/`} exact component={Home}/>
-          <Route path={`/services`} component={Services}/>
-          <Route path={`/about-us`} component={AboutUs}/>
-          <Route path={`/contact`} component={Contact}/>
+          <Route path={`/services`} exact component={Services}/>
+          <Route path={`/about-us`} exact component={AboutUs}/>
+          <Route path={`/contact`}  exact component={Contact}/>
         </div>
       </BrowserRouter>
       
