@@ -11,12 +11,12 @@ import { BrowserRouter, Route } from 'react-router-dom';
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter > {/* basename={process.env.PUBLIC_URL} */}
+      <BrowserRouter basename="/that-computer-chick-1.0"> 
         <div>
-          <Route path={`${process.env.PUBLIC_URL}/`} exact component={Home}/>
-          <Route path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
-          <Route path={`${process.env.PUBLIC_URL}/about-us`} component={AboutUs}/>
-          <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
+          <Route path={`/`} exact component={Home}/>
+          <Route path={`/services`} component={Services}/>
+          <Route path={`/about-us`} component={AboutUs}/>
+          <Route path={`/contact`} component={Contact}/>
         </div>
       </BrowserRouter>
       
