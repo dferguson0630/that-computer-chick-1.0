@@ -11,7 +11,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename="/that-computer-chick-1.0"> 
+      <BrowserRouter> {/*  basename="/that-computer-chick-1.0" */} 
         <div>
           <Route path={`/`} exact component={Home}/>
           <Route path={`/services`} exact component={Services}/>
